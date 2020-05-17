@@ -811,7 +811,7 @@ a:hover
 {
     position: relative;
 }
-
+/* 
 #contact #contact-form .fhp-input
 {
     display: none;
@@ -819,7 +819,7 @@ a:hover
     pointer-events: none;
 
     opacity: 0;
-}
+} */
 
 #contact #contact-form input,
 #contact #contact-form textarea,
