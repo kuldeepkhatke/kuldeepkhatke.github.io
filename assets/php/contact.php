@@ -2,7 +2,8 @@
 
 // ENTER YOUR EMAIL
 $emailTo = "kuldeepkhatke03@gmail.com";
-
+echo $emailTo;
+die();
 // ENTER IDENTIFIER
 $emailIdentifier =  "Message sent via contact form from " . $_SERVER["SERVER_NAME"];
 
