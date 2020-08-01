@@ -760,6 +760,7 @@ a:hover
 .featherlight .featherlight-content .work-lightbox img
 {
     margin: 0 auto 4vh auto;
+    height: 250px;
 }
 
 .featherlight .featherlight-content .work-lightbox p.subline
@@ -994,7 +995,7 @@ a:hover
 /** 10. Content Area --> Footer
 *******************************************************************/
 
-#footer .social-icons
+.social-icons
 {
     padding: 0;
 
@@ -1002,7 +1003,7 @@ a:hover
     text-align: center;
 }
 
-#footer .social-icons li
+.social-icons li
 {
     font-size: 2rem;
     line-height: 3em;
@@ -1024,7 +1025,7 @@ a:hover
     background: none;
 }
 
-#footer .social-icons li:before
+.social-icons li:before
 {
     position: absolute;
     z-index: -1;
@@ -1040,7 +1041,7 @@ a:hover
     background: #111;
 }
 
-#footer .social-icons li:after
+.social-icons li:after
 {
     position: absolute;
     z-index: -1;
@@ -1058,12 +1059,12 @@ a:hover
     background: #008aff;
 }
 
-#footer .social-icons li:hover:after
+.social-icons li:hover:after
 {
     width: 100%;
 }
 
-#footer .social-icons li a
+.social-icons li a
 {
     font-size: inherit;
 
@@ -1151,4 +1152,14 @@ a:hover
   #footer button:hover:after
   {
       width: 100%;
+  }
+
+  .social-icons-top li a{
+    padding: 0px !important;
+    line-height: inherit !important;
+  }
+
+  .social-icons-top li a i{
+    font-size: inherit !important; 
+    margin: 0px !important;
   }
