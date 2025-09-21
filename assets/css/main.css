@@ -1,3 +1,10 @@
+/* Custom: Reduce li font size and margin for About, Skills, and Projects sections */
+section#about ul li,
+section#service ul li,
+section#work ul li {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
 /******************************************************************
 
 
@@ -537,7 +544,7 @@ a:hover
 {
     line-height: 1.5em;
 
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
 }
 
 #about p:last-child
@@ -751,7 +758,7 @@ a:hover
 
 .featherlight .featherlight-content .work-lightbox
 {
-    max-width: 1000px;
+    /* max-width: 1000px; */
     padding: 6vh;
 
     text-align: center;
@@ -1095,7 +1102,7 @@ a:hover
     -ms-overflow-style: none;
   }
 
-  #footer button
+  #intro button, #footer button
   {
       line-height: 3.2em;
   
